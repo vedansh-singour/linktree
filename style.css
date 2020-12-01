@@ -1,0 +1,120 @@
+h1, h4 {
+  text-align: center;
+}
+img {
+  padding: 20px;
+  height: 150px;
+  width: 150px;
+  margin-top: -20px;
+  border-radius: 100%;
+  background-color: #1abc9c;
+}
+img:hover {
+  height: 250px;
+  width: 250px;
+  transition: 1s;
+  padding: 0px;
+}
+h2 {
+ margin-left: 10px;
+ margin-right: 10px;
+ text-align: center;
+ margin-bottom: 20px;
+ border: solid black 10px;
+ border-radius: 100px;
+ background-color: black;
+ font-weight: bold;
+
+ color: lime;
+}
+h2:hover {
+  border: solid black 20px;
+  transition: 0.5s;
+}
+html,body {
+ margin: 0;
+ padding: 0;
+ font-family: Robot;
+ background-color: skyBlue;
+}
+a {
+  text-decoration: none;
+  color: lime;
+  align: center;
+}
+a:hover {
+  color: red;
+}
+button {
+
+}
+button:hover {
+ border: solid black 15px;
+ border-radius: 20px;
+
+}
+b {
+  color: red;
+}
+h1 {
+  color: ;
+}
+#head {
+ color: white;
+ background-color: #1abc9c;
+ height: 100px;
+ margin: 0px;
+ padding: 0px;
+ border-radius: 0 0 30% 30%;
+ border: solid #1abc9c 10px;
+}
+#hl a {
+ color: white;
+}
+#hl {
+ margin: 10px;
+ float: left;
+ padding: 0px;
+}
+#hl h3 {
+  margin: 20px 0px 5px 5px;
+}
+#hr {
+ margin: 10px;
+ float: right;
+ padding: 10px;
+}
+#hr img {
+ height: 50px;
+ width: 50px;
+ margin: 5px;
+ border-radius: 20px 0px 20px 0px;
+ border: solid #1abc9c 3px;
+}
+#foot {
+ color: white;
+ background-color: #2f2f2f;
+ height: autopx;
+ margin: -5px;
+ padding: 20px;
+ border: solid #2f2f2f 10px;
+}
+#foot a {
+ text-align: center;
+ color: #1abc9a;
+}
+#foot h2 {
+  text-align: left;
+}
+#foot a:hover {
+ color: lime;
+}
+#foot {
+ margin: 0px;
+}
+#foot h4,p {
+  text-align: center;
+}
+#fr {
+ margin: 10px;
+}

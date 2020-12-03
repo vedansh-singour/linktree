@@ -14,6 +14,7 @@ img:hover {
   width: 250px;
   transition: 1s;
   padding: 0px;
+  transform: rotate(720deg);
 }
 h2 {
  margin-left: 10px;
@@ -30,6 +31,7 @@ h2 {
 h2:hover {
   border: solid black 20px;
   transition: 0.5s;
+  transform: rotate(360deg);
 }
 html,body {
  margin: 0;

@@ -33,7 +33,6 @@ h2 {
 h2:hover {
   border: solid black 20px;
   transition: 0.5s;
-  transform: rotate(360deg);
 }
 html,body {
  margin: 0;

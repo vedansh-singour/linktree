@@ -8,6 +8,7 @@ img {
   margin-top: -20px;
   border-radius: 100%;
   transition: 1s;
+  transform: rotate(720deg);
   background-color: #1abc9c;
 }
 img:hover {
@@ -15,7 +16,7 @@ img:hover {
   width: 250px;
   
   padding: 0px;
-  transform: rotate(720deg);
+  
 }
 h2 {
  margin-left: 10px;

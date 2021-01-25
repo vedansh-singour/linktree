@@ -8,13 +8,14 @@ img {
   margin-top: -20px;
   border-radius: 100%;
   transition: 1s;
-  transform: rotate(720deg);
   background-color: #1abc9c;
 }
 img:hover {
   height: 250px;
   width: 250px;
-  
+  transition: 3s;
+  border-radius: 50px 5px 50px 5px;
+  transform: rotate(720deg);
   padding: 0px;
   
 }
@@ -27,12 +28,12 @@ h2 {
  border-radius: 100px;
  background-color: black;
  font-weight: bold;
-
+ transition: 0.5s;
  color: lime;
 }
 h2:hover {
   border: solid black 20px;
-  transition: 0.5s;
+  
 }
 html,body {
  margin: 0;

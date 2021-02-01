@@ -8,13 +8,14 @@ img {
   margin-top: -20px;
   border-radius: 100%;
   transition: 1s;
-  transform: rotate(720deg);
-  background-color: #1abc9c;
+  background-color: slateblue;
 }
 img:hover {
   height: 250px;
   width: 250px;
-  
+  transition: 3s;
+  border-radius: 50px 5px 50px 5px;
+  transform: rotate(1440deg);
   padding: 0px;
   
 }
@@ -27,13 +28,12 @@ h2 {
  border-radius: 100px;
  background-color: black;
  font-weight: bold;
-
  color: lime;
 }
 h2:hover {
-  border: solid black 20px;
   transition: 0.5s;
-  transform: rotate(360deg);
+  border: solid black 20px;
+  
 }
 html,body {
  margin: 0;
@@ -65,12 +65,12 @@ h1 {
 }
 #head {
  color: white;
- background-color: #1abc9c;
+ background-color: slateblue;
  height: 100px;
  margin: 0px;
  padding: 0px;
  border-radius: 0 0 30% 30%;
- border: solid #1abc9c 10px;
+ border: solid slateblue 10px;
 }
 #hl a {
  color: white;
@@ -97,11 +97,11 @@ h1 {
 }
 #foot {
  color: white;
- background-color: #2f2f2f;
+ background-color: black;
  height: autopx;
  margin: -5px;
  padding: 20px;
- border: solid #2f2f2f 10px;
+ border: solid black 10px;
 }
 #foot a {
  text-align: center;
